@@ -1,0 +1,41 @@
+{
+  "extensionName": {
+    "message": "Image/Video Transform",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Rotate and flip images and videos.",
+    "description": "Description of the extension."
+  },
+
+  "transformMenuItemTitle": {
+    "message": "Transform",
+    "description": "Title of the transform menu item."
+  },
+
+  "rotate90degClockwiseMenuItemTitle": {
+    "message": "Rotate 90° Clockwise",
+    "description": "Title of the rotate 90° clockwise menu item."
+  },
+
+  "rotate90degCounterclockwiseMenuItemTitle": {
+    "message": "Rotate 90° Counterclockwise",
+    "description": "Title of the rotate 90° counterclockwise menu item."
+  },
+
+  "rotate180DegMenuItemTitle": {
+    "message": "Rotate 180°",
+    "description": "Title of the rotate 180° menu item."
+  },
+
+  "flipVerticalMenuItemTitle": {
+    "message": "Flip Vertical",
+    "description": "Title of the flip vertical menu item."
+  },
+
+  "flipHorizontalMenuItemTitle": {
+    "message": "Flip Horizontal",
+    "description": "Title of the flip horizontal menu item."
+  }
+}
