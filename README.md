@@ -1,6 +1,6 @@
 # Image Transform Context Menu Browser Extension
 
-A Firefox and Chrome Manifest V3 browser extension to add context menu items rotate or flip images and videos.
+A Firefox and Chrome Manifest V3 browser extension to add context menu items to rotate or flip images and videos.
 
 ## Synopsis
 
