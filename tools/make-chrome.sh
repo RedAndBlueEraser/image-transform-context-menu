@@ -13,6 +13,7 @@ sed -i 's/"128": "img\/rotate\.svg"/"128": "img\/rotate-128.png"/g' manifest.jso
 sed -i 's/"menus"/"contextMenus"/g' manifest.json
 # Replace background.scripts with background.service_worker in manifest.json.
 sed -i 's/"scripts": \["background\.js"\]/"service_worker": "background.js"/g' manifest.json
+sed -i -rz 's/"  browser_specific_settings": \{\n    "gecko": \{\n      "id": "image-transform-context-menu@RedAndBlueEraser"\n    \}\n  \},\n//g' manifest.json
 
 # background.js, content.js
 # Replace browser.* with chrome.* in *.js.

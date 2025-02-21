@@ -2,6 +2,11 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "image-transform-context-menu@RedAndBlueEraser"
+    }
+  },
   "version": "1.0",
   "icons": {
     "16": "img/rotate.svg",
