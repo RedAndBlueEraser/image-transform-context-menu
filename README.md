@@ -18,6 +18,10 @@ The extension should work on most web browsers that support Manifest V3 extensio
 
 Older versions and other Chromium based web browsers may also work but have not been tested.
 
+## Download
+
+[<img src="./get-the-addon.webp" alt="Get the add-on from Firefox Browser Add-ons">](https://addons.mozilla.org/en-US/firefox/addon/image-video-transform/)
+
 ## Build
 
 Build the Firefox extension (as `bin/firefox.xpi`) and Chrome extension (as `bin/chrome`) by running:
@@ -30,7 +34,7 @@ Locate the extension (`firefox.xpi` and `chrome`) in the `bin` folder.
 
 ### Firefox
 
-Download the signed extension package `image-transform-context-menu.xpi` from the Releases section, or compile it yourself using the Build instructions.
+Download the signed extension package `image-transform-context-menu.xpi` from [Firefox Browser Add-ons](https://addons.mozilla.org/en-US/firefox/addon/image-video-transform/), the [Releases section](../../releases/latest), or compile it yourself using the Build instructions.
 
 Install the extension permanently at `about:addons` or test the extension temporarily at `about:debugging#/runtime/this-firefox`.
 
@@ -48,7 +52,7 @@ For those who compiled the extension yourself, the extension must be signed in o
 
 Right-click any image or video to open the context menu. Click on any of the newly added Transform context menu items for the desired transform effect.
 
-<img src="https://github.com/RedAndBlueEraser/image-transform-context-menu/raw/master/demo.png" alt="Image of Image Transform Context Menu Browser Extension" width="768">
+![Image of Image Transform Context Menu Browser Extension](./demo.png)
 
 ## Attribution
 
