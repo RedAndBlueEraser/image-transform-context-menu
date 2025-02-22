@@ -1,4 +1,4 @@
-# Image Transform Context Menu Browser Extension
+# Image/Video Transform Context Menu Browser Extension
 
 A Firefox and Chrome Manifest V3 browser extension to add context menu items to rotate or flip images and videos.
 
@@ -12,7 +12,7 @@ The extension follows the WebExtensions API syntax and can be used in Firefox wi
 
 The extension should work on most web browsers that support Manifest V3 extensions:
 
-- Firefox 121+
+- Firefox 109+
 - Edge 121+
 - Chrome 121+
 
@@ -34,17 +34,15 @@ Locate the extension (`firefox.xpi` and `chrome`) in the `bin` folder.
 
 ### Firefox
 
-Download the signed extension package `image-transform-context-menu.xpi` from [Firefox Browser Add-ons](https://addons.mozilla.org/en-US/firefox/addon/image-video-transform/), the [Releases section](../../releases/latest), or compile it yourself using the Build instructions.
+Get the add-on from [Firefox Browser Add-ons](https://addons.mozilla.org/en-US/firefox/addon/image-video-transform/).
 
-Install the extension permanently at `about:addons` or test the extension temporarily at `about:debugging#/runtime/this-firefox`.
+Or download the signed extension package `image_video_transform.xpi` from the [Releases section](../../releases/latest), or compile it yourself using the Build instructions. Install the extension permanently at `about:addons` or test the extension temporarily at `about:debugging#/runtime/this-firefox`.
 
 For those who compiled the extension yourself, the extension must be signed by Mozilla in order for it to be installed permanently on Firefox Release and Beta channels. Extension signing [requirements can be disabled](https://wiki.mozilla.org/Add-ons/Extension_Signing#FAQ) on Nightly, Developer, and Enterprise channels.
 
 ### Chrome and Microsoft Edge and other Chromium based browsers
 
-Download the signed extension package from the Releases section, or compile it yourself using the Build instructions.
-
-Install the extension permanently or test the extension temporarily at `about:extensions`. To test the extension temporarily, enable Developer mode, and click "Load unpacked".
+Download the signed extension package from the [Releases section](../../releases/latest), or compile it yourself using the Build instructions. Install the extension permanently or test the extension temporarily at `about:extensions`. To test the extension temporarily, enable Developer mode, and click "Load unpacked".
 
 For those who compiled the extension yourself, the extension must be signed in order for it to be installed permanently.
 
